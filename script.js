@@ -1,9 +1,3 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('.main'),
-    smooth: true
-});
-
-
 gsap.from(".navlink", {
     stagger: 0.2,
     y: 20,
